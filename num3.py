@@ -12,13 +12,22 @@ print(num2)
     
 while num != num2:
     print('you are wrong, but it comes close')
-    
-    if num2 % 2 ==0:
-        print('To make it easy , the number is even one')
-    
+
+    if num < num2:
+        print(f'the right number is greater than your choice')
+        if num2 % 2 == 0:
+            print('To make it easy , the number is even one')
+        else:
+            print('To make it easy , the number is odd one')
     else:
-        print('To make it easy , the number is odd one')
+        print(f' the right number is less than your choice')
+        if num2 % 2 == 0:
+            print('To make it easy , the number is even one')
+        else:
+            print('To make it easy , the number is odd one')
+
     num = int(input('try a nother one, what is your guess? '))
+
 
 else:
     print('Congratulation, you got it, the number is: ',num2)
