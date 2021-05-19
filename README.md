@@ -4,7 +4,7 @@
 
 ## Instructions :
 
-### * The program generates a random number from 1 to 10, or 1 to 100 any range that is specified 
+### * The program generates a random number 
 and the user must guess the number after a hint from the computer. 
 
 
